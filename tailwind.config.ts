@@ -8,13 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      backgroundColor: {
+        foodie: "#E7FAFE",
+        breakfast: "#708246",
+        vegan: "#6CC63F",
+        Meat: "#CC261B",
+        dessert: "#F09E00",
+        lunch: "#000000",
+        chocolate: "#000000",
+      },
+      fontSize: {
+        foodieSm: "clamp(0.2rem, 0.2rem + 1vw, 1rem)",
       },
     },
+    plugins: [],
   },
-  plugins: [],
 };
 export default config;
