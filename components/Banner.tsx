@@ -28,7 +28,7 @@ function Banner() {
               consectetur mollitia ipsum in, cum iusto unde quasi aperiam porro
               quidem quod tempore?
             </p>
-            <InfoSticker />
+            <InfoSticker type="" />
             <div className=" flex justify-between">
               <div className=" flex items-center text-[clamp(0.2rem,_0.3rem_+_0.5vw,_1rem)] gap-2">
                 <Image alt="John" src={john} className="w-6 h-6 bg-cover" />
