@@ -24,15 +24,15 @@ function RecipeCards({ data, isRecipe2 }: props) {
         </div>
       ) : (
         <div
-          className={`flex flex-col gap-2 ${
-            isRecipe2 ? "" : "foodieFade"
-          }  w-fit px-3 pb-4 rounded-2xl max-h-[350px] justify-between`}
+          className={`flex flex-col gap-2 justify-between ${
+            isRecipe2 ? "lg:h-[300px] " : "foodieFade"
+          }  w-full max-w-[400px]  px-3 py-2 pb-4 rounded-2xl     `}
         >
-          <div className=" relative min-w-[350px] md:min-w-full ">
-            <Link href={`recipe/${data.id}`}>
+          <div className=" relative md:min-w-full   ">
+            <Link href={`/recipe/${data.id}`}>
               <Image
-                className={`rounded-2xl  max-h-[300px] w-full object-cover    ${
-                  isRecipe2 ? "max-w-[400px] max-h-[200px]" : ""
+                className={`rounded-2xl  w-full object-cover    ${
+                  isRecipe2 ? " max-h-[250px] " : ""
                 }`}
                 src={data.pic}
                 alt={data.title}

@@ -93,53 +93,50 @@ export const recipeCardsDatas = [
     type: "Noodles",
     pic: pasta,
   },
-];
-
-export const recipeCardsDatas2 = [
   {
-    id: 1,
+    id: 10,
     title: "Mixed Tropical Friut Salad with Superfood Boosts",
     type: "Healthy",
     pic: tropical,
   },
   {
-    id: 2,
+    id: 11,
     title: "Big and Juicy Wagyu Beef Cheeseburger",
     type: "Western",
     pic: wagyu,
   },
   {
-    id: 3,
+    id: 12,
     title: "Health Japanese Fried Rice with Asparagus",
     type: "Healthy",
     pic: japanese,
   },
   {
-    id: 4,
+    id: 13,
     title: "Cauliflower Walnut Vegetarian Taco Meat",
     type: "Eastern",
     pic: taco,
   },
   {
-    id: 5,
+    id: 14,
     title: "Rainbow Chicken Salad with Almon Honey Mustard Dressing",
     type: "Healthy",
     pic: rainbow,
   },
   {
-    id: 6,
+    id: 15,
     title: "Barbeque spicy Sandwiches with Chips",
     type: "Snack",
     pic: chips,
   },
   {
-    id: 7,
+    id: 16,
     title: "Firecracker vegan Lettuce Wraps - Spicy!",
     type: "Seafood",
     pic: lettuce,
   },
   {
-    id: 8,
+    id: 17,
     title: "Chicken Ramen Soup with Mushroom",
     type: "Snack",
     pic: mushroom,

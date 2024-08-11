@@ -1,4 +1,4 @@
-import { recipeCardsDatas2 } from "@/utils/data";
+import { recipeCardsDatas } from "@/utils/data";
 import React from "react";
 import RecipeCards from "./RecipeCards";
 import { RecipeCardProps } from "@/types";
@@ -17,8 +17,8 @@ function RecipeSection2() {
         </p>
       </div>
 
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 place-content-center">
-        {recipeCardsDatas2.map((data: RecipeCardProps) => (
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 place-items-center w-full">
+        {recipeCardsDatas.slice(9, 17).map((data: RecipeCardProps) => (
           <RecipeCards key={data.id} data={data} isRecipe2={true} />
         ))}
       </div>

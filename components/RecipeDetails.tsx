@@ -19,7 +19,7 @@ function RecipeDetails({ recipe }: RecipeDetailsProps) {
     <section className="flex flex-col gap-7">
       <div className=" md:flex md:items-center md:justify-between ">
         <div className="">
-          <h1 className="text-foodieXlg">{recipe?.title}</h1>
+          <h1 className="text-foodieXlg font-bold">{recipe?.title}</h1>
           <div className=" flex items-center gap-4 ">
             {cookDatas.map((data) => (
               <div
@@ -65,12 +65,16 @@ function RecipeDetails({ recipe }: RecipeDetailsProps) {
         </div>
       </div>
       <div className=""></div>
-      <div className="grid lg:grid-cols-2 gap-6">
+      <div className="grid lg:grid-cols-[60%,_40%] gap-8">
         <div className="relative w-full">
-          <Image className="w-full" alt={recipe.title} src={recipe.pic} />
+          <Image
+            className="w-full rounded-3xl max-h-[400px] object-cover"
+            alt={recipe.title}
+            src={recipe.pic}
+          />
           <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]  ">
-            <div className="relative grid place-content-center">
-              <Image src={play} alt="play" />
+            <div className="relative grid place-content-center cursor-pointer">
+              <Image src={play} alt="play" width={65} />
               <Image
                 className="absolute top-[50%] bottom-[50%] left-[50%] right-[50%] -translate-x-[50%] -translate-y-[50%]"
                 src={playIcon}
@@ -93,7 +97,7 @@ function RecipeDetails({ recipe }: RecipeDetailsProps) {
             ))}
           </div>
 
-          <p className="text-foodieSm text-center mt-8">
+          <p className="text-foodieSm text-center mt-8 mb-auto">
             Lorem ipsum dolor, sit amet consectetur adipisicing <br /> elit.
             Asperiores, veniam at. Sunt molestiae{" "}
           </p>

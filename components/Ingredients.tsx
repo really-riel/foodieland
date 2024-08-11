@@ -11,7 +11,7 @@ function Ingredients() {
   const sauceCount = [1, 2, 3];
 
   return (
-    <section className="grid md:grid-cols-[65%,_35%] gap-7">
+    <section className="grid lg:grid-cols-[60%,_40%] gap-7">
       <div className="flex flex-col gap-5">
         <h1 className="font-bold text-foodieLg">Ingredients</h1>
         <div className="">

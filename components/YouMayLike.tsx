@@ -1,4 +1,4 @@
-import { recipeCardsDatas, recipeCardsDatas2 } from "@/utils/data";
+import { recipeCardsDatas } from "@/utils/data";
 import React from "react";
 import RecipeCards from "./RecipeCards";
 
@@ -11,7 +11,7 @@ function YouMayLike({ id }: YouMayLikeProps) {
     .filter((data) => {
       return data.id !== id;
     })
-    .slice(0, 4);
+    .slice(13, 17);
 
   return (
     <section className="flex flex-col gap-16 ">
@@ -21,7 +21,7 @@ function YouMayLike({ id }: YouMayLikeProps) {
       <div className=" grid place-content-center gap-8  md:grid-cols-2 lg:grid-cols-4">
         {FilteredItems.map((item) => (
           <div className="" key={item.id}>
-            <RecipeCards data={item} isRecipe2={false} />
+            <RecipeCards data={item} isRecipe2={true} />
           </div>
         ))}
       </div>
