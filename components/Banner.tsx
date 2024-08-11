@@ -6,7 +6,7 @@ import Image from "next/image";
 import Bannerimg1 from "../public/bannerImages/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png";
 import john from "../public/bannerImages/Ellipse 2.png";
 import badge from "../public/bannerImages/Badge.png";
-import scroll from "../public/bannerImages/Scroll.png";
+import scroll from "../public/bannerImages/scroll.png";
 
 function Banner() {
   return (
