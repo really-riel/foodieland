@@ -1,18 +1,36 @@
-import { recipeCardsData } from "@/utils/data";
+"use client";
+import Contact from "@/components/Contact";
+import Directions from "@/components/Directions";
+import Ingredients from "@/components/Ingredients";
+import RecipeDetails from "@/components/RecipeDetails";
+import YouMayLike from "@/components/YouMayLike";
+import { recipeCardsDatas } from "@/utils/data";
 import React from "react";
 
 type Param = {
   params: {
-    recipeId: string;
+    recipeId: number;
   };
 };
 
-export default function Recipe({ param: { recipeId } }) {
-  const recipe = recipeCardsData.find((item) => item.id === recipeId);
+export default function Recipe({ params: { recipeId } }: Param) {
+  const recipe = recipeCardsDatas.find((item) => {
+    return item.id == recipeId;
+  });
+
+  if (!recipe) {
+    return <p>Recipe not found</p>;
+  }
+  console.log(recipe);
 
   return (
-    <section className="bg-red-300">
-      <div>{recipe?.pic}</div>
-    </section>
+    <>
+      {" "}
+      <RecipeDetails recipe={recipe} />
+      <Ingredients />
+      <Directions />
+      <Contact />
+      <YouMayLike id={recipeId} />
+    </>
   );
 }

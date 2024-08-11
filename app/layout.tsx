@@ -19,10 +19,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={"min-h-svh flex flex-col   bg-white w-full justify-center "}
+        className={`min-h-svh flex flex-col   bg-white w-full items-center ${inter.className}`}
       >
         <Header />
-        <main className="  flex-grow w-full ">{children}</main>
+        <main className="  flex-grow w-[95%] max-w-[1200px] justify-center flex flex-col gap-16 my-3 ">
+          {children}
+        </main>
 
         <Footer />
       </body>

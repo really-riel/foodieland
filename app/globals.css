@@ -7,3 +7,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@layer utilities {
+}
+
+/* foodie: "#E7FAFE",
+        breakfast: "#708246",
+        vegan: "#6CC63F",
+        meat: "#CC261B",
+        dessert: "#F09E00",
+        lunch: "#000000",
+        chocolate: "#000000", */
+
+/* utilies */
+.foodieFade {
+  background: linear-gradient(to top, #e7fafe, transparent);
+}
+.breakfast {
+  background: linear-gradient(to top, #7082462d, transparent);
+}
+.vegan {
+  background: linear-gradient(to top, #6cc63f1e, transparent);
+}
+.meat {
+  background: linear-gradient(to top, #cc271b1e, transparent);
+}
+.dessert {
+  background: linear-gradient(to top, #f09c0021, transparent);
+}
+.lunch {
+  background: linear-gradient(to top, #00000015, transparent);
+}
+.chocolate {
+  background: linear-gradient(to top, #00000015, transparent);
+}

@@ -13,7 +13,7 @@ export const CustomButton = ({
     <button
       type={"button"}
       className={
-        "bg-black text-white flex text-foodieSm items-center gap-1 py-2 px-3 rounded-lg"
+        "bg-black text-white flex text-foodieSm items-center gap-1 py-3 px-6 rounded-xl"
       }
       onClick={handleClick}
     >
