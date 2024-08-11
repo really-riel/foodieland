@@ -30,8 +30,8 @@ function Banner() {
             </p>
             <InfoSticker type="" />
             <div className=" flex justify-between items-end mt-auto">
-              <div className=" flex items-center text-[clamp(0.2rem,_0.3rem_+_0.5vw,_1rem)] gap-2">
-                <Image alt="John" src={john} className="w-6 h-6 bg-cover" />
+              <div className=" flex items-center text-foodieSm gap-2">
+                <Image alt="John" src={john} className="w-9 h-9w-9 bg-cover" />
                 <div className=" ">
                   <h3 className="font-bold">John Smith</h3>
                   <p>15 March 2022</p>
