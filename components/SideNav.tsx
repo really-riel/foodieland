@@ -5,7 +5,7 @@ import logo from "../public/logo.png";
 
 function SideNav({ setIsSideNavOpen }: any) {
   return (
-    <div className="w-full grid grid-cols-[70%_30%] fixed top-0 bottom-0 left-0 right-0">
+    <div className="w-full grid grid-cols-[60%_40%] fixed top-0 bottom-0 left-0 right-0">
       <div
         className=" bg-black opacity-50"
         onClick={() => setIsSideNavOpen(false)}
