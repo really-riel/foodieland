@@ -21,7 +21,7 @@ function YouMayLike({ id }: YouMayLikeProps) {
       <div className=" grid place-content-center gap-8  md:grid-cols-2 lg:grid-cols-4">
         {FilteredItems.map((item) => (
           <div className="" key={item.id}>
-            <RecipeCards data={item} />
+            <RecipeCards data={item} isRecipe2={false} />
           </div>
         ))}
       </div>
