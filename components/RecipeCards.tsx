@@ -29,13 +29,15 @@ function RecipeCards({ data, isRecipe2 }: props) {
           }  w-fit px-3 pb-4 rounded-2xl max-h-[350px] justify-between`}
         >
           <div className=" relative min-w-[350px] md:min-w-full ">
-            <Image
-              className={`rounded-2xl  max-h-[300px] w-full object-cover    ${
-                isRecipe2 ? "max-w-[400px] max-h-[200px]" : ""
-              }`}
-              src={data.pic}
-              alt={data.title}
-            />
+            <Link href={`recipe/${data.id}`}>
+              <Image
+                className={`rounded-2xl  max-h-[300px] w-full object-cover    ${
+                  isRecipe2 ? "max-w-[400px] max-h-[200px]" : ""
+                }`}
+                src={data.pic}
+                alt={data.title}
+              />
+            </Link>
             <ReactionButton isLoved={isLoved} handleClicked={handleClicked} />
           </div>
           <Link href={`recipe/${data.id}`}>
