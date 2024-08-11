@@ -13,6 +13,9 @@ function YouMayLike({ id }: YouMayLikeProps) {
     })
     .slice(13, 17);
 
+  console.log(FilteredItems);
+  console.log(id);
+
   return (
     <section className="flex flex-col gap-16 ">
       <h1 className="font-bold text-foodieLg text-center">
