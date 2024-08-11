@@ -10,16 +10,16 @@ function NavBar() {
         <Link href={"/"}>
           <li>Home</li>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/#recipe"}>
           <li>Recipes</li>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/#blog"}>
           <li> Blog</li>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/#contact"}>
           <li>Contact</li>
         </Link>
-        <Link href={"/"}>
+        <Link href={"/#about"}>
           <li>About us</li>
         </Link>
       </ul>

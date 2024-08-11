@@ -5,7 +5,7 @@ import { CustomButton } from "./CustomButton";
 
 function InstaPosts() {
   return (
-    <section className="flex flex-col gap-8" id="about">
+    <section className="flex flex-col gap-8 scroll-mt-14" id="about">
       <div className="text-center">
         <h2 className="text-foodieLg font-bold">
           Check out @foodieland on Instagram
