@@ -1,9 +1,8 @@
 import React from "react";
-import CategoryCard from "./CategoryCard";
+
 import { categoriesData } from "@/utils/data";
 import { CategoriesProp } from "@/types";
 import Image from "next/image";
-import InfoSticker from "./InfoSticker";
 
 function Categories() {
   return (
