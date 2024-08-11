@@ -10,13 +10,13 @@ import scroll from "../public/bannerImages/scroll.png";
 
 function Banner() {
   return (
-    <section className="w-full px-5  ">
+    <section className="w-full px-5 mt-5  ">
       <div className=" flex  w-full  ">
         <div className="hidden lg:block bg-foodie absolute left-0 h-[500px] w-10 rounded-tr-3xl rounded-br-3xl"></div>
-        <div className="flex-grow grid lg:grid-cols-2 bg-foodie rounded-3xl overflow-hidden gap-2 ">
-          <div className="p-4 flex flex-col gap-2 ">
-            <div className=" bg-white w-fit font-bold px-2 py-1 rounded-2xl text-[clamp(0.3rem,_0.3rem_+_0.5vw,_1rem)] flex items-center justify-center gap-1">
-              <Image alt="recipe scroll" src={scroll} className="w-full" />
+        <div className="flex-grow grid lg:grid-cols-2 bg-foodie rounded-3xl overflow-hidden gap-2  ">
+          <div className="p-4 py-8 flex flex-col gap-5 justify-between   ">
+            <div className=" bg-white w-fit font-bold px-2 py-1 rounded-2xl text-foodieSm flex items-center justify-center gap-1">
+              <Image alt="recipe scroll" src={scroll} className="w-[30px]" />
               <p>Hot Recipes</p>
             </div>
             <h1 className="text-[clamp(1.5rem,_2rem_+_1vw,_5rem)] font-bold">
@@ -29,7 +29,7 @@ function Banner() {
               quidem quod tempore?
             </p>
             <InfoSticker type="" />
-            <div className=" flex justify-between">
+            <div className=" flex justify-between items-end mt-auto">
               <div className=" flex items-center text-[clamp(0.2rem,_0.3rem_+_0.5vw,_1rem)] gap-2">
                 <Image alt="John" src={john} className="w-6 h-6 bg-cover" />
                 <div className=" ">
@@ -48,9 +48,10 @@ function Banner() {
                 src={Bannerimg1}
               />
               <Image
-                className="absolute -top-5 left-[50%] right-[50%]  translate-x-[-50%]"
+                className="absolute -top-5 left-[50%] right-[50%]  translate-x-[-50%] lg:left-0 lg:top-[10%] lg:w-[150px] "
                 alt="badge"
                 height={100}
+                width={100}
                 src={badge}
               />
             </div>
