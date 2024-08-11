@@ -19,7 +19,7 @@ function RecipeSection2() {
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 place-content-center">
         {recipeCardsDatas2.map((data: RecipeCardProps) => (
-          <RecipeCards key={data.id} data={data} />
+          <RecipeCards key={data.id} data={data} isRecipe2={true} />
         ))}
       </div>
     </section>

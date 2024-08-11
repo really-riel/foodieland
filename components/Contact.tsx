@@ -7,7 +7,7 @@ import plate from "../public/contactImages/plate.png";
 
 function Contact() {
   return (
-    <section>
+    <section id="contact" className="scroll-mt-14">
       <div className=" relative bg-foodie grid place-items-center p-8 rounded-3xl py-20 gap-12 overflow-hidden h-[30rem]">
         <div className=" text-center">
           <h1 className="font-bold text-foodieLg">

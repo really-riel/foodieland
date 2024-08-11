@@ -5,7 +5,7 @@ import { CustomButton } from "./CustomButton";
 
 function Banner2() {
   return (
-    <section className="grid lg:grid-cols-2">
+    <section className="grid lg:grid-cols-2 scroll-mt-14" id="blog">
       <div className=" flex flex-col gap-4 justify-center">
         <h1 className="font-bold text-foodieLg">
           Everyone can be a <br />

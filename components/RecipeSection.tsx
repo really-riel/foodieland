@@ -6,7 +6,7 @@ import RecipeCards from "./RecipeCards";
 
 function RecipeSection() {
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex flex-col gap-4 scroll-mt-14" id="recipe">
       <div className=" text-center ">
         <h1 className="text-2xl font-bold mb-3">Simple and tasty recipes</h1>
         <p className="text-foodieSm  ">

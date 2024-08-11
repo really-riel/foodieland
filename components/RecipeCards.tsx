@@ -8,9 +8,10 @@ import Link from "next/link";
 
 interface props {
   data: RecipeCardProps;
+  isRecipe2: boolean;
 }
 
-function RecipeCards({ data }: props) {
+function RecipeCards({ data, isRecipe2 }: props) {
   const [isLoved, setIsloved] = useState(false);
 
   const handleClicked = () => setIsloved(!isLoved);
@@ -22,10 +23,16 @@ function RecipeCards({ data }: props) {
           <Image className="h-full" src={data.pic} alt={data.title} />
         </div>
       ) : (
-        <div className="flex flex-col gap-2 foodieFade w-fit px-3 pb-4 rounded-2xl max-h-[350px] justify-between">
+        <div
+          className={`flex flex-col gap-2 ${
+            isRecipe2 ? "" : "foodieFade"
+          }  w-fit px-3 pb-4 rounded-2xl max-h-[350px] justify-between`}
+        >
           <div className=" relative min-w-[350px] md:min-w-full ">
             <Image
-              className="rounded-2xl  max-h-[300px] w-full  "
+              className={`rounded-2xl  max-h-[300px] w-full object-cover    ${
+                isRecipe2 ? "max-w-[400px] max-h-[200px]" : ""
+              }`}
               src={data.pic}
               alt={data.title}
             />

@@ -22,7 +22,7 @@ function Banner() {
             <h1 className="text-[clamp(1.5rem,_2rem_+_1vw,_5rem)] font-bold">
               Spicy delicious <br /> chicken wings
             </h1>
-            <p className="text-[clamp(0.2rem,_0.2rem_+_1vw,_1rem)]">
+            <p className="text-foodieSm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
               facere incidunt obcaecati vel, similique sit magni velit
               consectetur mollitia ipsum in, cum iusto unde quasi aperiam porro

@@ -16,19 +16,19 @@ function SideNav({ setIsSideNavOpen }: any) {
         </div>
         <nav>
           <ul className="flex items-center flex-col gap-5 *:p-2">
-            <Link href={"/"}>
+            <Link href={"/"} onClick={() => setIsSideNavOpen(false)}>
               <li>Home</li>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/#recipe"} onClick={() => setIsSideNavOpen(false)}>
               <li>Recipes</li>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/#blog"} onClick={() => setIsSideNavOpen(false)}>
               <li> Blog</li>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/#contact"} onClick={() => setIsSideNavOpen(false)}>
               <li>Contact</li>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/#about"} onClick={() => setIsSideNavOpen(false)}>
               <li>About us</li>
             </Link>
           </ul>

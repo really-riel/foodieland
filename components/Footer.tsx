@@ -28,10 +28,12 @@ function Footer() {
         </div>
       </div>
       <div className="border-t-2 border-black/15 flex flex-col-reverse lg:flex-row gap-3 pt-4">
-        <p className="grow grid place-items-center w-full">
-          &copy; 2020 Flowbase. Poweredby
-          <span className="text-orange-400">Webflow</span>
-        </p>
+        <div className="grow grid place-items-center">
+          <p className=" flex gap-2">
+            &copy; 2020 Flowbase. Poweredby
+            <span className="text-orange-400">Webflow</span>
+          </p>
+        </div>
 
         <ul className="flex gap-4">
           <li>

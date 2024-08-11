@@ -14,10 +14,10 @@ function Categories() {
           <p>View All Categories</p>
         </div>
       </div>
-      <div className=" flex gap-3 justify-between overflow-auto">
+      <div className=" flex gap-3 justify-between overflow-auto py-3">
         {categoriesData?.map((item: CategoriesProp) => (
           <div
-            className={`${item.title}  bg-opacity-5   p-4 rounded-2xl grid place-items-center min-w-[100px] gap-5`}
+            className={`${item.title}  bg-opacity-5     rounded-2xl grid place-items-center p-6 min-w-[120px] gap-5`}
             key={item.id}
           >
             <div className="relative">
