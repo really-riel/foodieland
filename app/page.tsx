@@ -5,7 +5,6 @@ import Contact from "@/components/Contact";
 import InstaPosts from "@/components/InstaPosts";
 import RecipeSection from "@/components/RecipeSection";
 import RecipeSection2 from "@/components/RecipeSection2";
-import Image from "next/image";
 
 export default function Home() {
   return (

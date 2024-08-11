@@ -2,7 +2,6 @@ import { instaPostData } from "@/utils/data";
 import Image from "next/image";
 import React from "react";
 import { CustomButton } from "./CustomButton";
-import { BsInstagram } from "react-icons/bs";
 
 function InstaPosts() {
   return (

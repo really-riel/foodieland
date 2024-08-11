@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import logo from "../public/logo.png";
-import { log } from "console";
+
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { PiInstagramLogo } from "react-icons/pi";

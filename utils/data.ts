@@ -10,9 +10,8 @@ import salmon from "../public/recipeImages/salmon.png";
 
 import post1 from "../public/instagramPosts/post1.png";
 import post2 from "../public/instagramPosts/post2.png";
-import post3 from "../public/instagramPosts/post3.png";
+
 import post4 from "../public/instagramPosts/post4.png";
-import { StaticImageData } from "next/image";
 
 import breakfast from "../public/CategoriesImages/breakfast.png";
 import vegan from "../public/CategoriesImages/vegan.png";
@@ -38,8 +37,6 @@ import lettuce from "../public/recipeImages/lettuce.png";
 import mushroom from "../public/recipeImages/mushroom.png";
 
 import john from "../public/bannerImages/Ellipse 2.png";
-import { BiStopwatch } from "react-icons/bi";
-import { time } from "console";
 
 export const recipeCardsDatas = [
   {
@@ -152,7 +149,7 @@ export const recipeCardsDatas2 = [
 export const instaPostData = [
   { id: 1, pic: post1 },
   { id: 2, pic: post2 },
-  { id: 3, pic: post3 },
+  { id: 3, pic: post1 },
   { id: 4, pic: post4 },
 ];
 

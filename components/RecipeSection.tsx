@@ -1,6 +1,6 @@
 import { RecipeCardProps } from "@/types";
 import { recipeCardsDatas } from "@/utils/data";
-import Link from "next/link";
+
 import React from "react";
 import RecipeCards from "./RecipeCards";
 
