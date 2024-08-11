@@ -18,7 +18,7 @@ const config: Config = {
         chocolate: "#000000",
       },
       fontSize: {
-        foodieSm: "clamp(0.4rem, 0.5rem + 1vw, 1.1rem)",
+        foodieSm: "clamp(0.4rem, 0.5rem + 1vw, 1rem)",
         foodieLg: "clamp(1rem, 1.5rem + 1vw, 3rem)",
         foodieXlg: "clamp(1.5rem, 2rem + 1vw, 5rem)",
       },
